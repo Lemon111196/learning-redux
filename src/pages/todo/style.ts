@@ -18,6 +18,19 @@ export const TodoContainer = styled.div`
     .btn{
         width: 75px;
         margin-left: 20px;
-
+    }
+    .singleTodo{
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        margin: 10px
+    }
+    .edit{
+        color: orange;
+        cursor: pointer;
+    }
+    .delete{
+        color: red;
+        cursor: pointer;
     }
 `;
